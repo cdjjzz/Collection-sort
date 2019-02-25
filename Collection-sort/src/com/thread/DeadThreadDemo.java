@@ -38,6 +38,7 @@ public class DeadThreadDemo {
                         System.out.println("get resource a");
                         System.out.println("1111232341231232341");
                         System.out.println("111");
+			 System.out.println("113");
                     }
                 }
             }
