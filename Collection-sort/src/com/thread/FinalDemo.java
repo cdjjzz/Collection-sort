@@ -1,12 +1,12 @@
 package com.thread;
 public class FinalDemo {
-    private int a;  //ÆÕÍ¨Óò
-    private final int b; //finalÓò
+    private int a;  //æ™®é€šåŸŸ
+    private final int b; //finalåŸŸ
     private static FinalDemo finalDemo;
 
     public FinalDemo() {
-        a = 1; // 1. Ğ´ÆÕÍ¨Óò
-        b = 2; // 2. Ğ´finalÓò
+        a = 1; // 1. å†™æ™®é€šåŸŸ
+        b = 2; // 2. å†™finalåŸŸ
     }
 
     public static void writer() {
@@ -14,9 +14,9 @@ public class FinalDemo {
     }
 
     public static void reader() {
-        FinalDemo demo = finalDemo; // 3.¶Á¶ÔÏóÒıÓÃ
-        int a = demo.a;    //4.¶ÁÆÕÍ¨Óò
-        int b = demo.b; //5.¶ÁfinalÓò
+        FinalDemo demo = finalDemo; // 3.è¯»å¯¹è±¡å¼•ç”¨
+        int a = demo.a;    //4.è¯»æ™®é€šåŸŸ
+        int b = demo.b;  //5.è¯»finalåŸŸ
         int c = a;
     }
 }
