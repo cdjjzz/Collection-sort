@@ -17,6 +17,5 @@ public class FinalDemo {
         FinalDemo demo = finalDemo; // 3.读对象引用
         int a = demo.a;    //4.读普通域
         int b = demo.b;  //5.读final域
-        int c = a;
     }
 }
