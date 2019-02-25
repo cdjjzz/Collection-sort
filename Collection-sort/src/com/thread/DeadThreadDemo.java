@@ -38,7 +38,6 @@ public class DeadThreadDemo {
                     System.out.println("get resource b");
                     synchronized (resource_a) {
                         System.out.println("get resource a");
-                        System.out.println("11111111");
                         //final 允许 引用对象不允许地址，但能修改里面的非final属性的值
                         //final 允许重载，不允许重写
                     }
