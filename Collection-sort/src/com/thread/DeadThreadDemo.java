@@ -37,7 +37,7 @@ public class DeadThreadDemo {
                     synchronized (resource_a) {
                         System.out.println("get resource a");
                         System.out.println("1111232341231232341");
- 
+                        System.out.println("111");
                     }
                 }
             }

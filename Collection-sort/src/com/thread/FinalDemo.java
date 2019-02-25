@@ -16,7 +16,7 @@ public class FinalDemo {
     public static void reader() {
         FinalDemo demo = finalDemo; // 3.¶Á¶ÔÏóÒýÓÃ
         int a = demo.a;    //4.¶ÁÆÕÍ¨Óò
-        int b = demo.b;    //5.¶ÁfinalÓò
+        int b = demo.b; //5.¶ÁfinalÓò
         int c = a;
     }
 }
