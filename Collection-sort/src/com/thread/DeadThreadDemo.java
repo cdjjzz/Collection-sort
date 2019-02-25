@@ -1,12 +1,12 @@
 package com.thread;
 
 /**
- * ÑİÊ¾Ïß³ÌËÀËø
+ * æ¼”ç¤ºçº¿ç¨‹æ­»é”
  * @author lsf53_000
  *
  */
 public class DeadThreadDemo {
-	//Àà±äÁ¿
+	//ç±»å˜é‡
 	private static String resource_a = "A";
     private static String resource_b = "B";
 
@@ -38,9 +38,9 @@ public class DeadThreadDemo {
                     System.out.println("get resource b");
                     synchronized (resource_a) {
                         System.out.println("get resource a");
-                        System.out.println("11111");
-                        //final ÔÊĞí ÒıÓÃ¶ÔÏó²»ÔÊĞíµØÖ·£¬µ«ÄÜĞŞ¸ÄÀïÃæµÄ·ÇfinalÊôĞÔµÄÖµ
-                        //final ÔÊĞíÖØÔØ£¬²»ÔÊĞíÖØĞ´
+                        System.out.println("1111232342341");
+                        //final å…è®¸ å¼•ç”¨å¯¹è±¡ä¸å…è®¸åœ°å€ï¼Œä½†èƒ½ä¿®æ”¹é‡Œé¢çš„éfinalå±æ€§çš„å€¼
+                        //final å…è®¸é‡è½½ï¼Œä¸å…è®¸é‡å†™
                     }
                 }
             }
