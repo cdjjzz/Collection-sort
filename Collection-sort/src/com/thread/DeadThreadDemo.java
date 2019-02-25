@@ -42,6 +42,10 @@ public class DeadThreadDemo {
 			System.out.println("114");
 			System.out.println("14135");
 			System.out.println("5555");
+
+			System.out.println("555");
+			System.out.println("55588");
+
                     }
                 }
             }
