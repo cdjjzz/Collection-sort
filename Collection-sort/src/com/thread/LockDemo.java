@@ -9,7 +9,7 @@ public class LockDemo {
     public static void main(String[] args) {
     	final In in=new  In();
         for (int i = 0; i < 5; i++) {
-		1312312322
+		13123123232424
             Thread thread = new Thread(() -> {
                 lock.lock();
                 int j=in.getI();
