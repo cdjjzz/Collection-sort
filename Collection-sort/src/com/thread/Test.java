@@ -8,6 +8,7 @@ public class Test {
 		   for (int i = 0; i < 100000; i++) {
 		       alloc();
 		       1232
+		       123123
 		   }
 		   // 查看执行时间
 		   long a2 = System.currentTimeMillis();
